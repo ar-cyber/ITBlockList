@@ -1,10 +1,10 @@
 # Investigation on X-VPN
-Collected by Andrew Robinson
-Verdict: Evasive, ignores antivirus, identification stealer
+Collected by Andrew Robinson <br>
+Verdict: Evasive, ignores antivirus, identification stealer <br>
 
-Malware: Possibly
-Dangerous: YES
-Should be disabled: YES
+Malware: Possibly <br> 
+Dangerous: YES <br>
+Should be disabled: YES <br>
 
 Summary:
 - The reason why X-VPN works is that it sends an invalid payload of a website that is not true; this evades antivirus
@@ -18,17 +18,17 @@ Flags:
 - Misinformation on the website [SEVERE FLAG]
 - Plagiarism on the website's privacy policy (copies ExpressVPN) [ILLEGAL]
 - X-VPN uses
-    Your email address [FINE]
-    Connection timestamps [FINE]
-    Protocol used [SEVERE]
-    Network type [SEVERE]
-    Error reports (analytics) [FINE]
-    Device information
-    App version [FINE]
-    Data usage [FINE]
-    Geolocation (city) [SEVERE]
-    Payment data [SEVERE + ILLEGAL]
-    Originating IP address when signing in to the website [SEVERE]
+    - Your email address [FINE]
+    - Connection timestamps [FINE]
+    - Protocol used [SEVERE]
+    - Network type [SEVERE]
+    - Error reports (analytics) [FINE]
+    - Device information
+    - App version [FINE]
+    - Data usage [FINE]
+    - Geolocation (city) [SEVERE]
+    - Payment data [SEVERE + ILLEGAL]
+    - Originating IP address when signing in to the website [SEVERE]
     [SEVERE FLAG] (IDENTIFICATION STEALER)
 - Self-developed protocols that are confidential? [SEVERE FLAG] (F.Y.I: X-VPN uses its own protocols that could easily be stolen)
 - Bogus stats: https://cdn.comparitech.com/wp-content/uploads/2021/03/VPN_Protocols2.jpg [RED FLAG]
