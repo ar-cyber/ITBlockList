@@ -1,0 +1,9 @@
+<RuleCollection Type="Exe" EnforcementMode="Enabled">
+  <FilePublisherRule Id="2d4218b9-9920-4271-b8a2-e812c778eaa7" Name="Block X-VPN 1" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+    <Conditions>
+      <FilePublisherCondition PublisherName="O=FREE CONNECTED LIMITED, L=ADMIRALTY, C=HK" ProductName="*" BinaryName="*">
+        <BinaryVersionRange LowSection="*" HighSection="*" />
+      </FilePublisherCondition>
+    </Conditions>
+  </FilePublisherRule>
+</RuleCollection>
