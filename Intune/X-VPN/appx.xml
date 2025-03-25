@@ -1,0 +1,9 @@
+<RuleCollection Type="Appx" EnforcementMode="Enabled">
+  <FilePublisherRule Id="b3aea35b-6ecb-4ee1-82e9-88bb96b54d98" Name="Block X-VPN 2" Description="" UserOrGroupSid="S-1-1-0" Action="Deny">
+    <Conditions>
+      <FilePublisherCondition PublisherName="CN=8BFD16E8-9CED-4DBA-9775-B9AC396BC51C" ProductName="29645FreeConnectedLimited.X-VPN-FreeUnlimitedVPNPr" BinaryName="*">
+        <BinaryVersionRange LowSection="*" HighSection="*" />
+      </FilePublisherCondition>
+    </Conditions>
+  </FilePublisherRule>
+</RuleCollection>
